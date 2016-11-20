@@ -1,0 +1,42 @@
+// This defines all syntax variables that syntax themes must implement when they
+// include a syntax-variables.less file.
+
+// Snazzy colors
+@snazzy-darkgray: #282a36;
+@snazzy-red: #fc5d5b;
+@snazzy-green: #62f592;
+@snazzy-yellow: #f3f8a2;
+@snazzy-blue: #5dc8fd;
+@snazzy-magenta: #fd6dc0;
+@snazzy-cyan: #9dedfd;
+@snazzy-white: #f1f1f0;
+@snazzy-highlight-color: average(@snazzy-blue, @snazzy-darkgray);
+@snazzy-focus-color: average(@snazzy-blue, black);
+
+// General colors
+@syntax-text-color: @snazzy-white;
+@syntax-cursor-color: @snazzy-yellow;
+@syntax-selection-color: @snazzy-highlight-color;
+@syntax-background-color: @snazzy-darkgray;
+
+// Guide colors
+@syntax-wrap-guide-color: #3b5364;
+@syntax-indent-guide-color: #3b5364;
+@syntax-invisible-character-color: #3b5364;
+
+// For find and replace markers
+@syntax-result-marker-color: @snazzy-yellow;
+@syntax-result-marker-color-selected: @snazzy-white;
+
+// Gutter colors
+@syntax-gutter-text-color: @snazzy-white;
+@syntax-gutter-text-color-selected: @snazzy-yellow;
+@syntax-gutter-background-color: @syntax-background-color;
+@syntax-gutter-background-color-selected: @snazzy-highlight-color;
+
+// For git diff info. i.e. in the gutter
+// These are static and were not extracted from your textmate theme
+@syntax-color-renamed: @snazzy-cyan;
+@syntax-color-added: @snazzy-green;
+@syntax-color-modified: @snazzy-yellow;
+@syntax-color-removed: @snazzy-red;
