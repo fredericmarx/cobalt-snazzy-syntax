@@ -2,7 +2,7 @@
   "name": "cobalt-snazzy-syntax",
   "theme": "syntax",
   "version": "0.0.0",
-  "description": "Based on Cobalt 2 by Wes Bos and Snazzy by Sindre Sorhus",
+  "description": "Atom syntax theme based on Cobalt 2 by Wes Bos and Snazzy by Sindre Sorhus",
   "keywords": [
     "syntax",
     "theme"
