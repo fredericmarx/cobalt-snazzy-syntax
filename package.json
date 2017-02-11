@@ -7,7 +7,8 @@
     "syntax",
     "theme"
   ],
-  "repository": "https://github.com/atom/cobalt-snazzy-syntax",
+	"author": "Frederic Marx <marx.frederic@gmail.com>",
+  "repository": "https://github.com/fredericmarx/cobalt-snazzy-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
