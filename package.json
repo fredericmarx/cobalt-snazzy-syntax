@@ -1,13 +1,13 @@
 {
   "name": "cobalt-snazzy-syntax",
   "theme": "syntax",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Atom syntax theme based on Cobalt 2 by Wes Bos and Snazzy by Sindre Sorhus",
   "keywords": [
     "syntax",
     "theme"
   ],
-	"author": "Frederic Marx <marx.frederic@gmail.com>",
+  "author": "Frederic Marx <marx.frederic@gmail.com>",
   "repository": "https://github.com/fredericmarx/cobalt-snazzy-syntax",
   "license": "MIT",
   "engines": {
